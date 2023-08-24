@@ -108,6 +108,9 @@ alias ls="ls -la"
 # alias ANTLR testing tool
 alias grun="java org.antlr.v4.gui.TestRig"
 
+# alias dotfiles
+alias dotfiles='/usr/bin/git --git-dir=/Users/rbelando/.cfg/ --work-tree=/Users/rbelando'
+
 #  ANTLR
 export CLASSPATH=".:/usr/local/lib/antlr-4.11.1-complete.jar:$CLASSPATH"
 
@@ -118,4 +121,3 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
-alias config='/usr/bin/git --git-dir=/Users/rbelando/.cfg/ --work-tree=/Users/rbelando'
